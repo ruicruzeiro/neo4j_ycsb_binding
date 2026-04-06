@@ -1,0 +1,68 @@
+Command line: -t -db com.yahoo.ycsb.db.Neo4jClient -P neo4j.properties -p recordcount=10000 -p operationcount=100000 -P ../ycsb-0.17.0/workloads/workloadc -threads 10 -s
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+2026-04-05 09:17:14:190 0 sec: 0 operations; est completion in 0 second 
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.netty.util.internal.PlatformDependent0$4 (file:/Users/ruicruzeiro/ISEC%20MEI/Big%20Data/Trabalho%20pr%c3%a1tico%20Neo4J/Relat%c3%b3rio/ycsb/ycsb-0.17.0/lib/neo4j-binding-1.0-SNAPSHOT-jar-with-dependencies.jar)
+WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$4
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[Neo4jClient] Connected to bolt://localhost:7687
+[Neo4jClient] Connected to bolt://localhost:7687
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-04-05 09:17:24:158 10 sec: 18501 operations; 1849.18 current ops/sec; est completion in 45 seconds [READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=18511, Max=65119, Min=2274, Avg=5193.86, 90=6591, 99=10975, 99.9=16447, 99.99=64319] 
+2026-04-05 09:17:34:158 20 sec: 42468 operations; 2396.7 current ops/sec; est completion in 28 seconds [READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=23962, Max=33279, Min=2152, Avg=4165.95, 90=5011, 99=7383, 99.9=11103, 99.99=31791] 
+2026-04-05 09:17:44:158 30 sec: 66415 operations; 2394.94 current ops/sec; est completion in 16 seconds [READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=23944, Max=25407, Min=2054, Avg=4171.44, 90=5003, 99=7975, 99.9=13847, 99.99=23087] 
+2026-04-05 09:17:54:158 40 sec: 90302 operations; 2388.46 current ops/sec; est completion in 5 second [READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [READ-FAILED: Count=23888, Max=105855, Min=2136, Avg=4182.98, 90=4975, 99=8187, 99.9=18367, 99.99=102335] 
+2026-04-05 09:17:58:537 44 sec: 100000 operations; 2214.66 current ops/sec; [READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [CLEANUP: Count=10, Max=216191, Min=204800, Avg=209011.2, 90=214271, 99=216191, 99.9=216191, 99.99=216191] [READ-FAILED: Count=9695, Max=15527, Min=2260, Avg=4234.31, 90=5103, 99=7847, 99.9=13095, 99.99=15239] 
+[OVERALL], RunTime(ms), 44384
+[OVERALL], Throughput(ops/sec), 2253.0641672674838
+[TOTAL_GCS_G1_Young_Generation], Count, 13
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 54
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.12166546503244412
+[TOTAL_GCS_G1_Concurrent_GC], Count, 0
+[TOTAL_GC_TIME_G1_Concurrent_GC], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Concurrent_GC], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 13
+[TOTAL_GC_TIME], Time(ms), 54
+[TOTAL_GC_TIME_%], Time(%), 0.12166546503244412
+[READ], Operations, 0
+[READ], AverageLatency(us), NaN
+[READ], MinLatency(us), 9223372036854775807
+[READ], MaxLatency(us), 0
+[READ], 95thPercentileLatency(us), 0
+[READ], 99thPercentileLatency(us), 0
+[READ], Return=NOT_FOUND, 100000
+[CLEANUP], Operations, 10
+[CLEANUP], AverageLatency(us), 209011.2
+[CLEANUP], MinLatency(us), 204800
+[CLEANUP], MaxLatency(us), 216191
+[CLEANUP], 95thPercentileLatency(us), 216191
+[CLEANUP], 99thPercentileLatency(us), 216191
+[READ-FAILED], Operations, 100000
+[READ-FAILED], AverageLatency(us), 4368.23384
+[READ-FAILED], MinLatency(us), 2054
+[READ-FAILED], MaxLatency(us), 105855
+[READ-FAILED], 95thPercentileLatency(us), 6039
+[READ-FAILED], 99thPercentileLatency(us), 8879

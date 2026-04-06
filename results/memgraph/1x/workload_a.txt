@@ -1,0 +1,471 @@
+Command line: -t -db com.yahoo.ycsb.db.Neo4jClient -P memgraph.properties -p recordcount=10000 -p operationcount=100000 -P ../ycsb-0.17.0/workloads/workloada -threads 10 -s
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+2026-04-06 09:25:30:077 0 sec: 0 operations; est completion in 0 second 
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.netty.util.internal.PlatformDependent0$4 (file:/Users/ruicruzeiro/ISEC%20MEI/Big%20Data/Trabalho%20pr%c3%a1tico%20Neo4J/Relat%c3%b3rio/ycsb/ycsb-0.17.0/lib/neo4j-binding-1.0-SNAPSHOT-jar-with-dependencies.jar)
+WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$4
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[Neo4jClient] Connected to bolt://localhost:7688
+[Neo4jClient] Connected to bolt://localhost:7688
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7688
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:25:40:039 10 sec: 3974 operations; 397.24 current ops/sec; est completion in 4 minutes [READ: Count=1991, Max=276991, Min=11400, Avg=23752.01, 90=32623, 99=51935, 99.9=232831, 99.99=276991] [UPDATE-FAILED: Count=17, Max=29439, Min=9544, Avg=16484, 90=20703, 99=29439, 99.9=29439, 99.99=29439] [UPDATE: Count=1969, Max=275967, Min=11824, Avg=23884.24, 90=32591, 99=62751, 99.9=172287, 99.99=275967] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:25:50:039 20 sec: 8156 operations; 418.24 current ops/sec; est completion in 3 minutes [READ: Count=2150, Max=120511, Min=12256, Avg=23803.57, 90=33311, 99=51647, 99.9=113151, 99.99=120511] [UPDATE-FAILED: Count=17, Max=31391, Min=7852, Avg=17442.24, 90=23327, 99=31391, 99.9=31391, 99.99=31391] [UPDATE: Count=2012, Max=120511, Min=11912, Avg=24069.29, 90=34047, 99=50623, 99.9=115199, 99.99=120511] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:26:00:039 30 sec: 12606 operations; 444.96 current ops/sec; est completion in 3 minutes [READ: Count=2228, Max=232191, Min=11200, Avg=22268.71, 90=30991, 99=51071, 99.9=96127, 99.99=232191] [UPDATE-FAILED: Count=13, Max=26527, Min=5020, Avg=16560.77, 90=26511, 99=26527, 99.9=26527, 99.99=26527] [UPDATE: Count=2209, Max=177791, Min=10840, Avg=22681.92, 90=31551, 99=58559, 99.9=153599, 99.99=177791] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:26:10:041 40 sec: 17359 operations; 475.2 current ops/sec; est completion in 3 minutes [READ: Count=2311, Max=119999, Min=11928, Avg=20992.78, 90=27295, 99=38783, 99.9=112959, 99.99=119999] [UPDATE-FAILED: Count=16, Max=22447, Min=9096, Avg=15307.5, 90=20079, 99=22447, 99.9=22447, 99.99=22447] [UPDATE: Count=2426, Max=113279, Min=10880, Avg=21106.76, 90=27519, 99=40703, 99.9=83263, 99.99=113279] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:26:20:039 50 sec: 21544 operations; 418.58 current ops/sec; est completion in 3 minutes [READ: Count=2057, Max=64319, Min=13072, Avg=23715.52, 90=31935, 99=42015, 99.9=53791, 99.99=64319] [UPDATE-FAILED: Count=18, Max=39807, Min=10744, Avg=17880.89, 90=26415, 99=39807, 99.9=39807, 99.99=39807] [UPDATE: Count=2110, Max=70399, Min=13376, Avg=24092.93, 90=32719, 99=42975, 99.9=52959, 99.99=70399] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:26:30:039 60 sec: 25981 operations; 443.7 current ops/sec; est completion in 2 minutes [READ: Count=2135, Max=123583, Min=10408, Avg=22544.24, 90=31199, 99=44415, 99.9=61887, 99.99=123583] [UPDATE-FAILED: Count=23, Max=32351, Min=6544, Avg=18114.35, 90=28047, 99=32351, 99.9=32351, 99.99=32351] [UPDATE: Count=2279, Max=67135, Min=11448, Avg=22574.39, 90=31215, 99=41855, 99.9=60095, 99.99=67135] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:26:40:039 70 sec: 30931 operations; 495 current ops/sec; est completion in 2 minutes [READ: Count=2443, Max=66047, Min=12208, Avg=20259.79, 90=26063, 99=36191, 99.9=50591, 99.99=66047] [UPDATE-FAILED: Count=19, Max=28255, Min=8968, Avg=14438.53, 90=18351, 99=28255, 99.9=28255, 99.99=28255] [UPDATE: Count=2491, Max=76287, Min=10752, Avg=20160.85, 90=26175, 99=36575, 99.9=58367, 99.99=76287] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:26:50:040 80 sec: 35789 operations; 485.75 current ops/sec; est completion in 2 minutes [READ: Count=2439, Max=65151, Min=11312, Avg=20550.65, 90=27087, 99=37823, 99.9=54111, 99.99=65151] [UPDATE-FAILED: Count=23, Max=46975, Min=6392, Avg=15215.57, 90=20831, 99=46975, 99.9=46975, 99.99=46975] [UPDATE: Count=2393, Max=52191, Min=11592, Avg=20654.4, 90=26975, 99=38847, 99.9=47167, 99.99=52191] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:27:00:040 90 sec: 40534 operations; 474.5 current ops/sec; est completion in 2 minutes [READ: Count=2330, Max=167295, Min=10384, Avg=20914.77, 90=27567, 99=40831, 99.9=123199, 99.99=167295] [UPDATE-FAILED: Count=17, Max=100543, Min=9632, Avg=20213.65, 90=23999, 99=100543, 99.9=100543, 99.99=100543] [UPDATE: Count=2400, Max=131071, Min=10384, Avg=21221.1, 90=28591, 99=45119, 99.9=117567, 99.99=131071] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:27:10:040 100 sec: 45349 operations; 481.5 current ops/sec; est completion in 2 minutes [READ: Count=2363, Max=59743, Min=11792, Avg=20889.31, 90=28175, 99=41087, 99.9=49567, 99.99=59743] [UPDATE-FAILED: Count=18, Max=21519, Min=6652, Avg=13041, 90=19151, 99=21519, 99.9=21519, 99.99=21519] [UPDATE: Count=2432, Max=61663, Min=11496, Avg=20702.39, 90=27775, 99=38079, 99.9=50431, 99.99=61663] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:27:20:041 110 sec: 49682 operations; 433.3 current ops/sec; est completion in 1 minute [READ: Count=2196, Max=86975, Min=11160, Avg=23134.59, 90=31727, 99=51679, 99.9=77183, 99.99=86975] [UPDATE-FAILED: Count=16, Max=23727, Min=9520, Avg=16347.5, 90=22975, 99=23727, 99.9=23727, 99.99=23727] [UPDATE: Count=2122, Max=95423, Min=11120, Avg=23059.97, 90=31535, 99=50431, 99.9=69567, 99.99=95423] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:27:30:040 120 sec: 54310 operations; 462.8 current ops/sec; est completion in 1 minute [READ: Count=2326, Max=146687, Min=11528, Avg=21622.81, 90=28623, 99=42527, 99.9=134271, 99.99=146687] [UPDATE-FAILED: Count=17, Max=24511, Min=9768, Avg=17265.41, 90=22335, 99=24511, 99.9=24511, 99.99=24511] [UPDATE: Count=2284, Max=156415, Min=11696, Avg=21608.49, 90=28543, 99=43679, 99.9=144895, 99.99=156415] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:27:40:041 130 sec: 58991 operations; 468.05 current ops/sec; est completion in 1 minute [READ: Count=2258, Max=59295, Min=10864, Avg=21430.77, 90=28623, 99=41343, 99.9=55423, 99.99=59295] [UPDATE-FAILED: Count=8, Max=17951, Min=9224, Avg=13233.5, 90=15887, 99=17951, 99.9=17951, 99.99=17951] [UPDATE: Count=2415, Max=57919, Min=12192, Avg=21306.59, 90=28543, 99=38367, 99.9=50207, 99.99=57919] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:27:50:041 140 sec: 63519 operations; 452.85 current ops/sec; est completion in 1 minute [READ: Count=2287, Max=95871, Min=11584, Avg=21983.37, 90=29583, 99=43967, 99.9=60671, 99.99=95871] [UPDATE-FAILED: Count=17, Max=33471, Min=8896, Avg=19052, 90=25375, 99=33471, 99.9=33471, 99.99=33471] [UPDATE: Count=2226, Max=112383, Min=11872, Avg=22175.53, 90=29983, 99=46303, 99.9=72575, 99.99=112383] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:28:00:041 150 sec: 67995 operations; 447.6 current ops/sec; est completion in 1 minute [READ: Count=2243, Max=175359, Min=10592, Avg=22410.94, 90=29583, 99=55775, 99.9=167295, 99.99=175359] [UPDATE-FAILED: Count=15, Max=25135, Min=11520, Avg=16890.93, 90=23295, 99=25135, 99.9=25135, 99.99=25135] [UPDATE: Count=2216, Max=163583, Min=10488, Avg=22335.39, 90=29951, 99=56511, 99.9=156031, 99.99=163583] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:28:10:041 160 sec: 72737 operations; 474.15 current ops/sec; est completion in 1 minute [READ: Count=2390, Max=54463, Min=11160, Avg=20924.34, 90=28479, 99=40831, 99.9=51359, 99.99=54463] [UPDATE-FAILED: Count=28, Max=33919, Min=3232, Avg=16280.89, 90=24399, 99=33919, 99.9=33919, 99.99=33919] [UPDATE: Count=2324, Max=96447, Min=10864, Avg=21279.39, 90=29183, 99=40959, 99.9=53247, 99.99=96447] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:28:20:042 170 sec: 77369 operations; 463.15 current ops/sec; est completion in 50 seconds [READ: Count=2334, Max=52031, Min=10568, Avg=21603.31, 90=28943, 99=39231, 99.9=48447, 99.99=52031] [UPDATE-FAILED: Count=18, Max=31087, Min=6524, Avg=17000.56, 90=25455, 99=31087, 99.9=31087, 99.99=31087] [UPDATE: Count=2280, Max=57247, Min=11952, Avg=21603.62, 90=28911, 99=39199, 99.9=52575, 99.99=57247] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:28:30:041 180 sec: 81697 operations; 432.84 current ops/sec; est completion in 41 seconds [READ: Count=2170, Max=67647, Min=11544, Avg=23128.9, 90=31183, 99=45695, 99.9=61855, 99.99=67647] [UPDATE-FAILED: Count=11, Max=23199, Min=6300, Avg=15811.09, 90=22879, 99=23199, 99.9=23199, 99.99=23199] [UPDATE: Count=2149, Max=79807, Min=12072, Avg=23120.93, 90=31215, 99=47679, 99.9=74559, 99.99=79807] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:28:40:042 190 sec: 86271 operations; 457.35 current ops/sec; est completion in 31 seconds [READ: Count=2303, Max=75327, Min=11208, Avg=21744.34, 90=29007, 99=41951, 99.9=60735, 99.99=75327] [UPDATE-FAILED: Count=14, Max=19359, Min=9584, Avg=15107.43, 90=17359, 99=19359, 99.9=19359, 99.99=19359] [UPDATE: Count=2256, Max=71423, Min=11408, Avg=21971.5, 90=29839, 99=42847, 99.9=58431, 99.99=71423] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:28:50:042 200 sec: 90482 operations; 421.1 current ops/sec; est completion in 22 seconds [READ: Count=2121, Max=72831, Min=10984, Avg=23748.5, 90=32895, 99=44991, 99.9=60703, 99.99=72831] [UPDATE-FAILED: Count=18, Max=25791, Min=6968, Avg=18067.67, 90=23871, 99=25791, 99.9=25791, 99.99=25791] [UPDATE: Count=2071, Max=73535, Min=10768, Avg=23820.63, 90=33247, 99=44959, 99.9=64159, 99.99=73535] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:29:00:042 210 sec: 95378 operations; 489.6 current ops/sec; est completion in 11 seconds [READ: Count=2459, Max=51647, Min=9768, Avg=20376.09, 90=27599, 99=37503, 99.9=50687, 99.99=51647] [UPDATE-FAILED: Count=10, Max=27311, Min=12984, Avg=17848.8, 90=26975, 99=27311, 99.9=27311, 99.99=27311] [UPDATE: Count=2427, Max=95167, Min=10048, Avg=20485.05, 90=27535, 99=38495, 99.9=55583, 99.99=95167] 
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+[UPDATE] Error: Cannot resolve conflicting transactions. Retry this transaction when the conflicting transaction is finished. For more details, visit https://memgraph.com/docs
+2026-04-06 09:29:09:268 219 sec: 100000 operations; 500.98 current ops/sec; [READ: Count=2256, Max=51327, Min=8176, Avg=18904.5, 90=24559, 99=35999, 99.9=45535, 99.99=51327] [UPDATE-FAILED: Count=25, Max=21007, Min=9784, Avg=15070.88, 90=20527, 99=21007, 99.9=21007, 99.99=21007] [CLEANUP: Count=10, Max=212479, Min=201600, Avg=206732.8, 90=211071, 99=212479, 99.9=212479, 99.99=212479] [UPDATE: Count=2341, Max=54495, Min=7744, Avg=18906.52, 90=24671, 99=35839, 99.9=51967, 99.99=54495] 
+[OVERALL], RunTime(ms), 219233
+[OVERALL], Throughput(ops/sec), 456.13570949628934
+[TOTAL_GCS_G1_Young_Generation], Count, 13
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 94
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.042876756692651195
+[TOTAL_GCS_G1_Concurrent_GC], Count, 0
+[TOTAL_GC_TIME_G1_Concurrent_GC], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Concurrent_GC], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 13
+[TOTAL_GC_TIME], Time(ms), 94
+[TOTAL_GC_TIME_%], Time(%), 0.042876756692651195
+[READ], Operations, 49790
+[READ], AverageLatency(us), 21793.071821650934
+[READ], MinLatency(us), 8176
+[READ], MaxLatency(us), 276991
+[READ], 95thPercentileLatency(us), 33407
+[READ], 99thPercentileLatency(us), 44319
+[READ], Return=OK, 49790
+[UPDATE-FAILED], Operations, 378
+[UPDATE-FAILED], AverageLatency(us), 16518.70105820106
+[UPDATE-FAILED], MinLatency(us), 3232
+[UPDATE-FAILED], MaxLatency(us), 100543
+[UPDATE-FAILED], 95thPercentileLatency(us), 26495
+[UPDATE-FAILED], 99thPercentileLatency(us), 33471
+[CLEANUP], Operations, 10
+[CLEANUP], AverageLatency(us), 206732.8
+[CLEANUP], MinLatency(us), 201600
+[CLEANUP], MaxLatency(us), 212479
+[CLEANUP], 95thPercentileLatency(us), 212479
+[CLEANUP], 99thPercentileLatency(us), 212479
+[UPDATE], Operations, 49832
+[UPDATE], AverageLatency(us), 21870.442847969178
+[UPDATE], MinLatency(us), 7744
+[UPDATE], MaxLatency(us), 275967
+[UPDATE], 95thPercentileLatency(us), 33535
+[UPDATE], 99thPercentileLatency(us), 44927
+[UPDATE], Return=OK, 49832
+[UPDATE], Return=ERROR, 378

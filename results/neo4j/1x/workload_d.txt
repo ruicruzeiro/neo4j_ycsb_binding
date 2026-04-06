@@ -1,0 +1,81 @@
+Command line: -t -db com.yahoo.ycsb.db.Neo4jClient -P neo4j.properties -p recordcount=10000 -p operationcount=100000 -P ../ycsb-0.17.0/workloads/workloadd -threads 10 -s
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+2026-04-05 09:17:58:787 0 sec: 0 operations; est completion in 0 second 
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.netty.util.internal.PlatformDependent0$4 (file:/Users/ruicruzeiro/ISEC%20MEI/Big%20Data/Trabalho%20pr%c3%a1tico%20Neo4J/Relat%c3%b3rio/ycsb/ycsb-0.17.0/lib/neo4j-binding-1.0-SNAPSHOT-jar-with-dependencies.jar)
+WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$4
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[Neo4jClient] Connected to bolt://localhost:7687
+[Neo4jClient] Connected to bolt://localhost:7687
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[Neo4jClient] Connected to bolt://localhost:7687
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-04-05 09:18:08:758 10 sec: 11506 operations; 1150.02 current ops/sec; est completion in 1 minute [READ: Count=6761, Max=170623, Min=3014, Avg=7502.35, 90=10719, 99=19327, 99.9=33247, 99.99=47679] [READ-FAILED: Count=4203, Max=157695, Min=2934, Avg=8166.96, 90=11567, 99=26287, 99.9=152831, 99.99=157695] [INSERT: Count=554, Max=483839, Min=5436, Avg=20814.43, 90=26223, 99=329983, 99.9=476159, 99.99=483839] 
+2026-04-05 09:18:18:758 20 sec: 26758 operations; 1525.35 current ops/sec; est completion in 55 seconds [READ: Count=10728, Max=92159, Min=2936, Avg=6421.78, 90=8303, 99=12959, 99.9=27823, 99.99=92159] [READ-FAILED: Count=3699, Max=94527, Min=2558, Avg=6378.11, 90=8139, 99=13007, 99.9=29919, 99.99=94527] [INSERT: Count=816, Max=142463, Min=3926, Avg=8979.8, 90=11471, 99=24527, 99.9=87615, 99.99=142463] 
+2026-04-05 09:18:28:757 30 sec: 39982 operations; 1322.4 current ops/sec; est completion in 46 seconds [READ: Count=10026, Max=21823, Min=3610, Avg=7504.37, 90=10039, 99=14455, 99.9=18735, 99.99=21727] [READ-FAILED: Count=2544, Max=25327, Min=3400, Avg=7515.05, 90=10087, 99=14463, 99.9=18543, 99.99=25327] [INSERT: Count=655, Max=23359, Min=4136, Avg=8474.51, 90=11487, 99=15823, 99.9=22127, 99.99=23359] 
+2026-04-05 09:18:38:757 40 sec: 51753 operations; 1177.1 current ops/sec; est completion in 38 seconds [READ: Count=9238, Max=46303, Min=3978, Avg=8475.11, 90=11583, 99=16311, 99.9=23903, 99.99=44799] [READ-FAILED: Count=1903, Max=30479, Min=4228, Avg=8380.6, 90=11391, 99=16047, 99.9=20255, 99.99=30479] [INSERT: Count=628, Max=84927, Min=3744, Avg=9041.91, 90=12271, 99=23871, 99.9=75647, 99.99=84927] 
+2026-04-05 09:18:48:757 50 sec: 62046 operations; 1029.3 current ops/sec; est completion in 31 seconds [READ: Count=8258, Max=127679, Min=3756, Avg=9740.09, 90=13295, 99=18911, 99.9=107135, 99.99=121791] [READ-FAILED: Count=1481, Max=24415, Min=4784, Avg=9638.44, 90=13503, 99=18063, 99.9=21695, 99.99=24415] [INSERT: Count=554, Max=64479, Min=3952, Avg=9416.67, 90=12791, 99=19263, 99.9=41247, 99.99=64479] 
+2026-04-05 09:18:58:757 60 sec: 71722 operations; 967.6 current ops/sec; est completion in 24 seconds [READ: Count=7900, Max=159615, Min=4576, Avg=10402.84, 90=14271, 99=19951, 99.9=144127, 99.99=154623] [READ-FAILED: Count=1283, Max=157567, Min=5120, Avg=10379.04, 90=14447, 99=19487, 99.9=40223, 99.99=157567] [INSERT: Count=491, Max=23855, Min=3952, Avg=9047.81, 90=12863, 99=16895, 99.9=23855, 99.99=23855] 
+2026-04-05 09:19:08:757 70 sec: 80873 operations; 915.1 current ops/sec; est completion in 17 seconds [READ: Count=7488, Max=42015, Min=5272, Avg=11018.93, 90=15215, 99=21119, 99.9=35039, 99.99=41759] [READ-FAILED: Count=1196, Max=44255, Min=5652, Avg=10999.22, 90=15015, 99=20383, 99.9=27503, 99.99=44255] [INSERT: Count=467, Max=23647, Min=3672, Avg=9190.52, 90=13447, 99=17631, 99.9=23647, 99.99=23647] 
+2026-04-05 09:19:18:757 80 sec: 89511 operations; 863.89 current ops/sec; est completion in 10 seconds [READ: Count=7151, Max=40831, Min=5300, Avg=11669.17, 90=16007, 99=22159, 99.9=35775, 99.99=39807] [READ-FAILED: Count=1054, Max=42143, Min=5816, Avg=11628.79, 90=15839, 99=21007, 99.9=41119, 99.99=42143] [INSERT: Count=435, Max=81471, Min=3600, Avg=9859.31, 90=13623, 99=36607, 99.9=81471, 99.99=81471] 
+2026-04-05 09:19:28:757 90 sec: 97754 operations; 824.3 current ops/sec; est completion in 3 second [READ: Count=6901, Max=41311, Min=5712, Avg=12294.29, 90=16975, 99=22831, 99.9=32079, 99.99=36799] [READ-FAILED: Count=917, Max=42367, Min=6160, Avg=12267.82, 90=16719, 99=21839, 99.9=26735, 99.99=42367] [INSERT: Count=423, Max=32623, Min=3910, Avg=9124.4, 90=13159, 99=19327, 99.9=32623, 99.99=32623] 
+2026-04-05 09:19:32:058 93 sec: 100000 operations; 680.19 current ops/sec; [READ: Count=1893, Max=49983, Min=5136, Avg=12542.28, 90=17839, 99=23951, 99.9=33855, 99.99=49983] [CLEANUP: Count=10, Max=216575, Min=202752, Avg=206835.2, 90=210687, 99=216575, 99.9=216575, 99.99=216575] [READ-FAILED: Count=235, Max=26303, Min=5316, Avg=12367.79, 90=16959, 99=22095, 99.9=26303, 99.99=26303] [INSERT: Count=118, Max=18143, Min=4124, Avg=8868.05, 90=12535, 99=18063, 99.9=18143, 99.99=18143] 
+[OVERALL], RunTime(ms), 93305
+[OVERALL], Throughput(ops/sec), 1071.7539252987515
+[TOTAL_GCS_G1_Young_Generation], Count, 13
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 61
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.06537698944322383
+[TOTAL_GCS_G1_Concurrent_GC], Count, 0
+[TOTAL_GC_TIME_G1_Concurrent_GC], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Concurrent_GC], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 13
+[TOTAL_GC_TIME], Time(ms), 61
+[TOTAL_GC_TIME_%], Time(%), 0.06537698944322383
+[READ], Operations, 76344
+[READ], AverageLatency(us), 9304.013805931048
+[READ], MinLatency(us), 2936
+[READ], MaxLatency(us), 170623
+[READ], 95thPercentileLatency(us), 15767
+[READ], 99thPercentileLatency(us), 20031
+[READ], Return=OK, 76344
+[READ], Return=NOT_FOUND, 18515
+[CLEANUP], Operations, 10
+[CLEANUP], AverageLatency(us), 206835.2
+[CLEANUP], MinLatency(us), 202752
+[CLEANUP], MaxLatency(us), 216575
+[CLEANUP], 95thPercentileLatency(us), 216575
+[CLEANUP], 99thPercentileLatency(us), 216575
+[READ-FAILED], Operations, 18515
+[READ-FAILED], AverageLatency(us), 8649.397029435593
+[READ-FAILED], MinLatency(us), 2558
+[READ-FAILED], MaxLatency(us), 157695
+[READ-FAILED], 95thPercentileLatency(us), 15079
+[READ-FAILED], 99thPercentileLatency(us), 19759
+[INSERT], Operations, 5141
+[INSERT], AverageLatency(us), 10354.78856253647
+[INSERT], MinLatency(us), 3600
+[INSERT], MaxLatency(us), 483839
+[INSERT], 95thPercentileLatency(us), 16767
+[INSERT], 99thPercentileLatency(us), 33023
+[INSERT], Return=OK, 5141

@@ -5,8 +5,11 @@ Since YCSB does not include an official binding for Neo4j, this project implemen
 Requirements
 
 Java 11+
+
 Apache Maven 3
+
 YCSB 0.17.0
+
 Neo4j 5 or Memgraph (via Docker)
 
 Setup

@@ -11,41 +11,49 @@ Neo4j 5 or Memgraph (via Docker)
 
 Setup
 1. Download YCSB:
-`bashcurl -L -O https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz
-tar xfvz ycsb-0.17.0.tar.gz`
+`bashcurl -L -O https://github.com/brianfrankcooper/YCSB/releases/download/0.17.0/ycsb-0.17.0.tar.gz`
+`tar xfvz ycsb-0.17.0.tar.gz`
 2. Build the binding:
-bashmvn install:install-file \
+`bashmvn install:install-file \
   -Dfile=../ycsb-0.17.0/lib/core-0.17.0.jar \
   -DgroupId=site.ycsb -DartifactId=core \
-  -Dversion=0.17.0 -Dpackaging=jar
+  -Dversion=0.17.0 -Dpackaging=jar`
 
-mvn clean package -DskipTests
-cp target/neo4j-binding-*-jar-with-dependencies.jar ../ycsb-0.17.0/lib/
+`mvn clean package -DskipTests
+cp target/neo4j-binding-*-jar-with-dependencies.jar ../ycsb-0.17.0/lib/`
 3. Configure neo4j.properties:
-propertiesneo4j.url=bolt://localhost:7687
+`propertiesneo4j.url=bolt://localhost:7687
 neo4j.user=neo4j
 neo4j.password=password
-neo4j.database=neo4j
+neo4j.database=neo4j`
 For Memgraph, use memgraph.properties:
-propertiesneo4j.url=bolt://localhost:7688
+`propertiesneo4j.url=bolt://localhost:7688
 neo4j.user=
 neo4j.password=
-neo4j.database=memgraph
+neo4j.database=memgraph`
 Running the benchmark
 Load phase:
-bashjava -cp "../ycsb-0.17.0/lib/*" site.ycsb.Client -load \
+`java -cp "../ycsb-0.17.0/lib/*" site.ycsb.Client -load \
   -db com.yahoo.ycsb.db.Neo4jClient \
   -P neo4j.properties \
   -p recordcount=10000 \
-  -threads 10 -s
+  -threads 10 -s`
 Run phase (Workload A):
-bashjava -cp "../ycsb-0.17.0/lib/*" site.ycsb.Client -t \
+`java -cp "../ycsb-0.17.0/lib/*" site.ycsb.Client -t \
   -db com.yahoo.ycsb.db.Neo4jClient \
   -P neo4j.properties \
   -P ../ycsb-0.17.0/workloads/workloada \
   -p recordcount=10000 \
   -p operationcount=100000 \
-  -threads 10 -s
+  -threads 10 -s`
 Supported Operations
-YCSB OperationCypher QueryREADMATCH (n:Movie {id: $key}) RETURN nINSERTCREATE (n:Movie) SET n = $propsUPDATEMATCH (n:Movie {id: $key}) SET n.field = $valDELETEMATCH (n:Movie {id: $key}) DELETE nSCANMATCH (n:Movie) WHERE n.id >= $key RETURN n ORDER BY n.id LIMIT $count
-L
+READ
+`MATCH (n:Movie {id: $key}) RETURN n`
+INSERT
+`CREATE (n:Movie) SET n = $props`
+UPDATE
+`MATCH (n:Movie {id: $key}) SET n.field = $val`
+DELETE
+`MATCH (n:Movie {id: $key}) DELETE n`
+SCAN
+`MATCH (n:Movie) WHERE n.id >= $key RETURN n ORDER BY n.id LIMIT $count`
